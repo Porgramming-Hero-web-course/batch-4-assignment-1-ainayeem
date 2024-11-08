@@ -2,8 +2,7 @@
   class Car {
     constructor(public make: string, public model: string, public year: number) {}
     getCarAge() {
-      const crntYear = new Date().getFullYear();
-      return crntYear - this.year;
+      return new Date().getFullYear() - this.year;
     }
   }
 

@@ -5,5 +5,5 @@
 
     return smlVal.split(" ").filter((v) => v === smlKey).length;
   }
-  console.log(countWordOccurrences("I love love typescript", "love"));
+  console.log(countWordOccurrences("I love typescript", "typescript"));
 }
